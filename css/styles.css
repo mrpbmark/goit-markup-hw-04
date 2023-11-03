@@ -138,8 +138,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--navyblue);
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office\ 1.jpg);
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-button {
@@ -303,4 +308,83 @@ ul {
     padding: 32px 16px;
     border: 1px solid var(--cornflower, #e7e9fc);
     border-top: none;
+}
+
+.features-icons {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    background-color: var(--cloudcolor);
+}
+
+.team-icons {
+    display: flex;
+    color: var(--cloudcolor);
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.team-content-icons {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iriscolor);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: var(--cloudcolor);
+}
+
+.customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.64;
+    text-align: center;
+    color: var(--navyblue);
+}
+
+.customers-icon {
+    padding: 16px 32px;
+
+}
+
+.customers-flex {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-icons-borders {
+    border: 1px solid var(--lightslatecolor);
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    fill: var(--lightslatecolor);
+
+}
+
+.customers-section {
+    margin-top: 120px;
+}
+
+.footer-socialmedia-title {
+    color: var(--whitecolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+
+}
+
+.footer-flex {
+    display: flex;
+    gap: 176px;
+
 }
